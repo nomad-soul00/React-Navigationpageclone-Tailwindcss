@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .border-test {
+    @apply border-2 border-red-500;
+  }
+
+  .user-icons {
+    @apply w-10 h-10 rounded-md shadow-lg
+  }
+
+
+}
