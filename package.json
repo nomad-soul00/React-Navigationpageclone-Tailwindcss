@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "vite",
+    "build": "vite build",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "keywords": [],
